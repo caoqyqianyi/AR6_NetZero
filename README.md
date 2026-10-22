@@ -33,8 +33,8 @@ python -m unittest -v            # tests for the analysis logic
 | `net_zero_years.csv` | Net-zero year for each scenario |
 | `summary.csv` | Scenario counts, median and quartiles per category |
 
-Runs with `--demo` write files with a `demo_` prefix and a "synthetic demo data" label on the figures.
-They are for testing only and are not AR6 results.
+<img src="output/net_co2_pathways.png" alt="Net C20 Pathways" width="800">
+<img src="output/net_zero_timing.png" alt="Net Zero Timing" width="800">
 
 ## Method
 
