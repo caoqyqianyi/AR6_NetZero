@@ -6,6 +6,12 @@ A small, reproducible Python example that works with the public
 For every scenario in the 1.5°C and 2°C categories (C1, C2, C3) it finds the year in which
 global net CO2 emissions first reach zero, summarises the timing per category and draws two figures.
 
+| Category | Meaning |
+|----------|---------|
+| C1 | Limit warming to 1.5°C (>50% chance) with no or limited overshoot |
+| C2 | Return warming to 1.5°C (>50%) after a high overshoot |
+| C3 | Limit warming to 2°C (>67% chance) |
+
 I wrote it as a first look at how integrated assessment scenarios are structured, with
 the question of residual emissions in mind.
 
