@@ -248,7 +248,7 @@ def run(demo: bool, out_dir: Path) -> pd.DataFrame:
 def main(argv=None) -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--demo", action="store_true", help="use synthetic data (no internet needed)")
-    parser.add_argument("--out", type=Path, default=Path("outputs"), help="output folder")
+    parser.add_argument("--out", type=Path, default=Path("output"), help="output folder")
     args = parser.parse_args(argv)
     run(args.demo, args.out)
 
