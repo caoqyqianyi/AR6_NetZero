@@ -154,7 +154,6 @@ ar6-net-zero-sample/
 ├── ar6_netzero.py        # data loading, analysis, plotting and command-line interface
 ├── test_ar6_netzero.py   # unit tests for the analysis logic (synthetic data only)
 ├── requirements.txt      # pyam-iamc, pandas, numpy, matplotlib
-├── figures/              # committed figures from the latest live run
 ├── outputs/              # generated when the script is run (git-ignoreable)
 └── README.md
 ```
