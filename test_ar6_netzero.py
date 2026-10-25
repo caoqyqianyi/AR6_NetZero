@@ -1,4 +1,4 @@
-"""Tests for the analysis logic. They use synthetic data only (no internet needed)."""
+"""Tests for the analysis logic. Use synthetic data only (no internet needed)."""
 
 import math
 import tempfile
